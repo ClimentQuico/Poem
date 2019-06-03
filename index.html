@@ -1,0 +1,139 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>El poema</title>
+<style>
+body {
+	background-image:url(images/fondonegro2.jpg);
+	background-siz
+	height:900px;
+}
+
+h1 {text-align:center;
+	color:#F3F3F3;
+	font-size:2.5em;
+	margin-top:20px; 
+}
+
+#caja {
+	width:60%; 
+	margin-left:20%; 
+	padding-top:25px;
+	padding-left:5%;
+	background-image:url(images/fondoparquenegro.jpg);
+	border:2px solid #BBB;
+}
+
+div p,em {
+	font-size:2em; 
+	color:white; 
+	text-align:justify;
+}
+
+#bany {
+	color:#FFFF97;
+ 	float:left; 
+	font-size:2em; 
+	margin-top:32px; 
+	margin-left:8px;
+}
+#bany:hover {
+	color:#FFBF80;
+ 	font-weight:bold;
+	font-size:2.1em;
+	transition:0.7s;
+}
+
+#vater {
+	display: none;
+}
+
+#bany:hover + #vater {
+  	width:60%;
+	margin-left:15%;
+ 	display: block;
+}
+
+#linea2 {
+	float:left;
+}
+
+#otra1 {color:#F22; transition:0.7s;}
+#otra2 {color:#B900B9; transition:0.7s;}
+#otra1:hover {color:#FFF; font-weight:bold; font-size:2.2em;}
+#otra2:hover {color:#FFF; font-weight:bold; font-size:2.2em;}
+
+#coca {
+	display: none;
+	width:60%;
+	margin-left:15%;
+}
+
+#coca2 {
+	display: none;
+	width:60%;
+	margin-left:15%;
+}
+
+#otra1:hover + #coca {
+ 	display: block;
+}
+#otra2:hover + #coca2 {
+ 	display: block;
+}
+
+#colchon {
+	color:#FFAEAE;
+	font-size:2em; 
+	transition:0.7s;
+}
+#colchon:hover {
+	color:#CACACA;
+	text-decoration:underline;
+	font-size:2.1em;
+}
+
+#chica {
+	display: none;
+}
+
+#colchon:hover + #chica {
+  	width:60%;
+	margin-left:15%;
+ 	display: block;
+}
+
+em {margin-left:35%;}
+
+</style>
+</head>
+
+<body>
+<h1> EL POEMA </h1>
+
+<div id="caja">
+	<p> Hay una chica bonita </p>
+	<p id="linea2"> esnifando cocaína en un </p><p id="bany">cuarto de baño inmundo.</p>
+    <img src="images/vater.jpg" id="vater"/>
+    <div style="clear: both"></div>
+    <p id="otra1"> -¿Otra? Sí </p>
+    <img src="images/cocaina.jpg" id="coca" width="60%" />
+	<p id="otra2"> -¿Otra? Sí </p>
+    <img src="images/cocaina2.jpg" id="coca2" width="60%" />
+	<p> Se le duerme la boca y se le abren las piernas. </p>
+	<p> Blancas, delgadas, cubiertas de heridas. </p>
+    <p> Al rato aparece un pájaro afónico y desquiciado</p>
+    <p id="colchon"> desplumándose vivo sobre un colchón viejo.</p>
+    <img src="images/chica.jpg"  id="chica" width="60%" />
+    <br /><br />
+    <p> Hay una chica bonita </p>
+	<br /><br />
+    <p> Dejémosla estar </p>
+    <br />
+    <em> Ana Elena Pena </em>
+	
+</div>
+
+
+</body>
+</html>
